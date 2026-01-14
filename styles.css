@@ -347,4 +347,11 @@ header {
     .hero-title {
         font-size: 3rem;
     }
+
+    /* Fix background scaling on mobile */
+    .hero {
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+    }
 }
