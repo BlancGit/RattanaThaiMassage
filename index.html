@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rattana Thai Massage | Adelsdorf</title>
+    <meta name="description" content="Traditionelle Thaimassage in Adelsdorf.">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-pattern"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- Small SVG Logo for Header -->
+                <svg width="40" height="40" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="headerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M50,80 A50,50 0 1,1 150,80" fill="url(#headerGradient)" />
+                    <path d="M40,85 Q70,70 100,90 Q130,70 180,85 Q160,105 100,115 Q60,105 40,85 Z" fill="#DAA520"
+                        stroke="#4a0404" stroke-width="1" />
+                </svg>
+                Rattana Thai Massage
+            </div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about">Über Uns</a>
+                <a href="#services">Preise & Services</a>
+                <a href="#footer">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Large Hero Logo -->
+            <div class="hero-logo-large" style="margin-bottom: 2rem;">
+                <svg width="250" height="150" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sunGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Rays -->
+                    <g stroke="#DAA520" stroke-width="2">
+                        <line x1="100" y1="5" x2="100" y2="25" />
+                        <line x1="80" y1="10" x2="85" y2="30" />
+                        <line x1="120" y1="10" x2="115" y2="30" />
+                        <line x1="60" y1="20" x2="70" y2="38" />
+                        <line x1="140" y1="20" x2="130" y2="38" />
+                        <line x1="45" y1="40" x2="60" y2="50" />
+                        <line x1="155" y1="40" x2="140" y2="50" />
+                    </g>
+                    <path d="M50,80 A50,50 0 1,1 150,80" fill="url(#sunGradient)" />
+                    <path d="M40,85 Q70,70 100,90 Q130,70 180,85 Q160,105 100,115 Q60,105 40,85 Z" fill="#DAA520"
+                        stroke="#4a0404" stroke-width="1" />
+                </svg>
+            </div>
+            <h1 class="hero-title">Willkommen bei Rattana</h1>
+            <p class="hero-subtitle">Die Traditionelle Thaimassage in Adelsdorf. <br>Entspannung für Körper und Geist.
+            </p>
+            <a href="#services" class="btn-gold">Preise Ansehen</a>
+        </div>
+    </section>
+
+    <!-- Intro / About Section -->
+    <section id="about" class="intro-section">
+        <div class="container intro-grid">
+            <div class="intro-text">
+                <h2>Über Uns</h2>
+                <p>Die Traditionelle Thaimassage ist eine der beliebtesten Massagearten weltweit. Wir laden Sie ein, den
+                    Alltag hinter sich zu lassen und tiefste Entspannung zu erfahren.</p>
+                <p>Unsere Räumlichkeiten bieten eine Atmosphäre von Ruhe und thailändischer Gastfreundschaft. Lassen Sie
+                    sich bei Rattana Thai Massage verwöhnen.</p>
+            </div>
+            <div class="intro-image">
+                <img src="assets/therapist.jpg" alt="Rattana Thai Massage Therapist"
+                    style="max-width: 100%; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); border: 2px solid var(--accent-gold);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2 class="services-title">Unsere Preise</h2>
+        <div class="price-grid">
+
+            <!-- Klassisch -->
+            <div class="price-card">
+                <i class="fa-solid fa-leaf"
+                    style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 1rem;"></i>
+                <h3>Klassische Massagen</h3>
+                <span class="sub-text">Thai Yoga, Aroma Öl, Fuß Massage</span>
+                <div class="price-list">
+                    <div class="price-row"><span>30 Minuten</span><strong>30 €</strong></div>
+                    <div class="price-row"><span>45 Minuten</span><strong>45 €</strong></div>
+                    <div class="price-row"><span>60 Minuten</span><strong>53 €</strong></div>
+                    <div class="price-row"><span>90 Minuten</span><strong>73 €</strong></div>
+                </div>
+            </div>
+
+            <!-- Hot Stone -->
+            <div class="price-card">
+                <i class="fa-solid fa-fire"
+                    style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 1rem;"></i>
+                <h3>Hot Stone Massage</h3>
+                <span class="sub-text">Wärmende Energie</span>
+                <div class="price-list">
+                    <div class="price-row"><span>60 Minuten</span><strong>63 €</strong></div>
+                    <div class="price-row"><span>90 Minuten</span><strong>83 €</strong></div>
+                </div>
+            </div>
+
+            <!-- Pakete -->
+            <div class="price-card">
+                <i class="fa-solid fa-gift"
+                    style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 1rem;"></i>
+                <h3>Pakete (Specials)</h3>
+                <span class="sub-text">Verwöhnprogramme</span>
+                <div class="price-list">
+                    <div class="price-row" style="display:block; margin-bottom: 1.5rem;">
+                        <div style="display:flex; justify-content:space-between;"><span>Sonnen Paket</span><strong>123
+                                €</strong></div>
+                        <small style="opacity:0.7;">135 Min (90 Hot Stone + 45 Fuß)</small>
+                    </div>
+                    <div class="price-row" style="display:block;">
+                        <div style="display:flex; justify-content:space-between;"><span>Harmonie Paket</span><strong>113
+                                €</strong></div>
+                        <small style="opacity:0.7;">135 Min (90 Körper + 45 Fuß)</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer-section">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-col">
+                    <h4>Kontakt</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Thüringer Straße 42<br>91325 Adelsdorf</p>
+                    <p><i class="fa-solid fa-phone"></i> 0176 / 25764359</p>
+                    <p><i class="fa-solid fa-envelope"></i> Thairattana@web.de</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Öffnungszeiten</h4>
+                    <p><strong>Mo – Do:</strong> 10:00 – 12:00 & 16:00 – 19:00</p>
+                    <p><strong>Fr:</strong> 10:00 – 12:00 & 13:00 – 19:00</p>
+                    <p><strong>Sa:</strong> 10:00 – 17:30</p>
+                    <p style="font-size:0.9rem; opacity:0.6; margin-top:1rem;">Telefonisch erreichbar täglich 10-19 Uhr.
+                    </p>
+                </div>
+
+                <div class="footer-col social-col">
+                    <h4>Finden Sie uns</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/profile.php?id=100085016483692&locale=th_TH"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.google.com/search?q=Rattana+Thai+Massage+in+Adelsdorf" target="_blank"><i
+                                class="fa-brands fa-google"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                &copy; 2026 Rattana Thai Massage. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
